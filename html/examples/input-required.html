@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width; initial-scale=1.0;"/>
+
+<style>
+input:valid { border: 1px solid green; }
+input:invalid { border: 1px solid red; }
+
+input[type='date'] { background: red; }
+input[type='date'] > * { background: green; }
+</style>
+
+</head>
+
+<body>
+
+<form action="" method="POST">
+<input type="text" required="required"></input>
+<input type="date" id="test"></input>
+<input type="submit" value="Submit"></input>
+</form>
+
+<script>
+
+window.onload = function() {
+  document.querySelector('#test').addEventListener('invalid', function(){
+    alert('invalid');
+  }, true);
+  
+  console.log(document.querySelector('#test'));
+  
+}
+</script>
+
+</body>
+</html>

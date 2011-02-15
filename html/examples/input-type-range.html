@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width; initial-scale=1.0;"/>
+
+<style>
+.vertical {
+    -webkit-appearance: slider-vertical;
+    height: 10em;
+}
+
+input[type='range'].custom {
+    -webkit-appearance: none;
+    background-color: gray;
+}
+
+input[type='range'].custom::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #444;
+    width: 15px;
+    height: 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>input type="range"</h1>
+
+<h2>Default</h2>
+<input type="range">
+
+<h2>Vertical</h2>
+<input type="range" class="vertical">
+
+<h2>Custom styling</h2>
+<input type="range" class="custom">
+
+</body>
+</html>

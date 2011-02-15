@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+<style type="text/css" media="screen">
+[data-foo^=bar] {color: red;}                    /* starting with bar */
+[data-foo$=bar] {color: blue;}                   /* ending with bar */
+[data-foo*=bar] { text-decoration: underline; }  /* contains bar */
+</style>
+
+</head>
+
+<body>
+
+<p data-foo="barabc">Starting with bar</p>
+<p data-foo="abcbar">Ending with bar</p>
+<p data-foo="abcbarabc">Contains bar</p>
+
+
+</body>
+</html>
