@@ -1,6 +1,6 @@
 <?php include_once('../_common/functions.php'); ?>
 
-<?php FE::head('JavaScript', 'A free resource from Frontend Stuff'); ?>
+<?php FE::head('JavaScript'); ?>
 <section>
   <h2>Introduction</h2>
   <p>TODO</p>

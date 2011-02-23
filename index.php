@@ -1,8 +1,8 @@
 <?php include_once('_common/functions.php'); ?>
 
-<?php FE::head('Frontend Stuff', 'Free HTML, CSS, and JavaScript for the masses'); ?>
+<?php FE::head('Frontend Stuff', 'Free <a href="//frontendstuff.com/html/">HTML</a>, <a href="//frontendstuff.com/css/">CSS</a>, and <a href="//frontendstuff.com/javascript/">JavaScript</a> for the masses'); ?>
 <section class="media-block">
-  <img src="http://frontendstuff.com/_common/images/qr.png">
+  <div class="img qr" aria-label="QR code"></div>
   <p>The goal of this site is quite simple: to provide a free, clear, concise, and accurate resource for all things frontend engineering.  Feel free to help contribute by <a href="//github.com/davidcalhoun/frontendstuff/">forking this repository on GitHub</a> and submitting a pull request.</p>
   <p>(A work very much in-progress)</p>
 </section>

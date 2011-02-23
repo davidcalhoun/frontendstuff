@@ -1,6 +1,6 @@
 <?php
   include_once('../_common/functions.php');
-  FE::head('CSS', 'A free resource from Frontend Stuff');
+  FE::head('CSS');
 ?>
 <section>
   <h2>Introduction</h2>
@@ -9,7 +9,13 @@
 
 <section>
   <h2>CSS stuff</h2>
-  <p>TODO</p>
+  <ul>
+    <li><a href="position.php">position</a></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
 </section>
 
 <section>
